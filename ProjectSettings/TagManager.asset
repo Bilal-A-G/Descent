@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - GameEnd
+  - DynamitePiece
+  - Safe
+  - Rune
+  - Plate
+  - PlayerTrigger
+  - UV
+  - PPlates
+  - DynamiteInteract
+  - climable wall
+  - UV Num
+  - NoDeath
+  - Rope
+  - PlayerCamera
+  - pickup
+  - Reach
+  - climbableWall
+  - WallText
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Spider
+  - Water
+  - UI
+  - Ground
+  - Wall
+  - Player
+  - Rope
+  - VaultLayer
+  - Details
+  - Hands
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
