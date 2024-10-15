@@ -15,6 +15,11 @@ public class EventObject : ScriptableObject
         }
     }
 
+    public void UnSubscribeAll()
+    {
+        subscribers.Clear();
+    }
+
     public void Invoke(bool isTrue)
     {
         for (int i = 0; i < subscribers.Count; i++)

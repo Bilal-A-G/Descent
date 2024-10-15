@@ -16,8 +16,8 @@ public class MonsterVariables : MonoBehaviour
     public Vector3 playerLastKnownPos;
     public float alertnessDecreaseRate;
 
-    private void Start()
-    { 
+    private void OnEnable()
+    {
         player = GameObject.Find(playerName).transform;
         playerCamera = player.GetChild(0).Find(playerCameraName);
     }

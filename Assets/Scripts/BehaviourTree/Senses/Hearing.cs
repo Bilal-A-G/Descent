@@ -41,6 +41,13 @@ public class Hearing : MonoBehaviour
         });
     }
 
+    private void OnDisable()
+    {
+        madeQuietSound.UnSubscribeAll();
+        madeMediumSound.UnSubscribeAll();
+        madeLoudSound.UnSubscribeAll();
+    }
+
     private void AlertMonster(float amount, Vector3 soundPosition)
     {
         if (m_playerSpotted)
