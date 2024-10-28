@@ -19,13 +19,15 @@ public class MonsterVariables : MonoBehaviour
     private void OnEnable()
     {
         player = GameObject.Find(playerName).transform;
-        playerCamera = player.GetChild(0).Find(playerCameraName);
+        //playerCamera = player.GetChild(0).Find(playerCameraName);
     }
 
     private void Update()
     {
         alertness -= alertnessDecreaseRate * Time.deltaTime;
         alertness = Mathf.Clamp(alertness, 0.0f, 1.0f);
+
+        playerLastKnownPos = player.position;
     }
 
 }
